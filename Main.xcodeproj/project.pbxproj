@@ -30,6 +30,9 @@
 		3DD570661ED1DFCD0012572B /* ContactKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD570651ED1DFCD0012572B /* ContactKit.swift */; };
 		3DD570681ED1E0050012572B /* AuthKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD570671ED1E0050012572B /* AuthKit.swift */; };
 		3DD5706A1ED1E0100012572B /* DataKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD570691ED1E0100012572B /* DataKit.swift */; };
+		3DD5706C1ED1E0FC0012572B /* Mediator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD5706B1ED1E0FC0012572B /* Mediator.swift */; };
+		3DD5706E1ED1E1940012572B /* ChatAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD5706D1ED1E1940012572B /* ChatAdaptor.swift */; };
+		3DD570701ED1E1B80012572B /* ContactAdaptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD5706F1ED1E1B80012572B /* ContactAdaptor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -124,6 +127,9 @@
 		3DD570651ED1DFCD0012572B /* ContactKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactKit.swift; sourceTree = "<group>"; };
 		3DD570671ED1E0050012572B /* AuthKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthKit.swift; sourceTree = "<group>"; };
 		3DD570691ED1E0100012572B /* DataKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataKit.swift; sourceTree = "<group>"; };
+		3DD5706B1ED1E0FC0012572B /* Mediator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mediator.swift; sourceTree = "<group>"; };
+		3DD5706D1ED1E1940012572B /* ChatAdaptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatAdaptor.swift; sourceTree = "<group>"; };
+		3DD5706F1ED1E1B80012572B /* ContactAdaptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactAdaptor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +226,9 @@
 				3DD56FDB1ED1D9090012572B /* Assets.xcassets */,
 				3DD56FDD1ED1D9090012572B /* LaunchScreen.storyboard */,
 				3DD56FE01ED1D9090012572B /* Info.plist */,
+				3DD5706B1ED1E0FC0012572B /* Mediator.swift */,
+				3DD5706D1ED1E1940012572B /* ChatAdaptor.swift */,
+				3DD5706F1ED1E1B80012572B /* ContactAdaptor.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -569,8 +578,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DD5706C1ED1E0FC0012572B /* Mediator.swift in Sources */,
+				3DD570701ED1E1B80012572B /* ContactAdaptor.swift in Sources */,
 				3DD56FD71ED1D9090012572B /* ViewController.swift in Sources */,
 				3DD56FD51ED1D9090012572B /* AppDelegate.swift in Sources */,
+				3DD5706E1ED1E1940012572B /* ChatAdaptor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
