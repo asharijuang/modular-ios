@@ -7,7 +7,12 @@
 //
 
 import UIKit
+import Data
 
 class ContactAdaptor: NSObject {
-
+    var data : DataKit?
+    
+    override init() {
+        self.data = DataKit()
+    }
 }

@@ -7,7 +7,19 @@
 //
 
 import UIKit
+import Chat
 
 class ChatAdaptor: NSObject {
 
+    
+    // Interface
+    func startChat(withEmail email: String) {
+        
+    }
+    
+    func startChat(withRoom room: String) {
+        
+    }
+    
+    
 }
