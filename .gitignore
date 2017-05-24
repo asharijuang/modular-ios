@@ -1,0 +1,9 @@
+Pods/*
+Podfile.lock
+Podfile.lockbup
+.DS_Store
+**/.DS_Store
+**/xcuserdata/**
+**/UniversalLib.xcscheme
+
+Auth/Pods/*
