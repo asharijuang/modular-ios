@@ -14,6 +14,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
   s.platform     = :ios, "9.0"
+  s.swift_version = '4.2'
   s.source_files = 'Auth/**/*.{h,m,swift,xib}'
   s.resources = "Auth/**/*.xcassets"
   s.resource_bundles = {
