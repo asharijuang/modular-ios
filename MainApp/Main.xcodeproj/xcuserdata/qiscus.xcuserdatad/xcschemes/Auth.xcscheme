@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "1120"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3DD570341ED1DE7D0012572B"
-               BuildableName = "Contact.framework"
-               BlueprintName = "Contact"
+               BlueprintIdentifier = "3DD570561ED1DEE70012572B"
+               BuildableName = "Auth.framework"
+               BlueprintName = "Auth"
                ReferencedContainer = "container:Main.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -29,8 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -45,14 +43,12 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3DD570341ED1DE7D0012572B"
-            BuildableName = "Contact.framework"
-            BlueprintName = "Contact"
+            BlueprintIdentifier = "3DD570561ED1DEE70012572B"
+            BuildableName = "Auth.framework"
+            BlueprintName = "Auth"
             ReferencedContainer = "container:Main.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -63,9 +59,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3DD570341ED1DE7D0012572B"
-            BuildableName = "Contact.framework"
-            BlueprintName = "Contact"
+            BlueprintIdentifier = "3DD570561ED1DEE70012572B"
+            BuildableName = "Auth.framework"
+            BlueprintName = "Auth"
             ReferencedContainer = "container:Main.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import Chat
 
 class ChatAdaptor: NSObject {
 
